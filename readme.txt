@@ -1,0 +1,35 @@
+=== Get Posts ===
+Author URI: http://paulschreiber.com/
+Plugin URI: http://paulschreiber.com/blog/2011/02/04/how-to-display-the-latest-blog-post-on-a-wordpress-page/
+Contributors: paulschreiber
+Tags: get_latest_post, post, posts, formatting, list, shortcode
+Requires at least: 3.0.4
+Tested up to: 3.0.4
+Stable tag: 0.1
+
+Adds a shortcode tag [get_latest_post] to display an excerpt from your latest blog post.
+
+== Description ==
+
+This plugin adds the ability to put a shortcode tag in any static page or post and have it display an excerpt from your latest blog post.
+
+There are no settings or options.
+
+It generates markup like this, which you can style as desired:
+
+`<div class='latest-post'>`
+`<br /><p class='title'><a href='http://www.mysite.ca/blog/post'>Look ma, no hands!</a></p>`
+`<br /><p class='excerpt'>Today I rode a bicycle &hellip; <a href="http://www.mysite.ca/blog/post">Continue reading <span class="meta-nav">&rarr;</span></a></p>`
+`</div>`
+
+
+== Installation ==
+
+1. Upload the plugin to the `/wp-content/plugins/` directory and unzip it.
+1. Activate the plugin through the 'Plugins' menu in WordPress.
+1. Place `[get_latest_post]` in your pages. 
+
+== Changelog ==
+
+= 0.1 =
+* Initial release.
