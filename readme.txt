@@ -17,13 +17,10 @@ There are no settings or options.
 
 It generates markup like this, which you can style as desired:
 
-`<div class='latest-post'>`
-`<p class='title'><a href='http://www.mysite.ca/blog/post'>Look ma, no hands!</a></p>`
-`<p class='excerpt'>Today I rode a bicycle &hellip;`
-`<a href="http://www.mysite.ca/blog/post">Continue reading <span class="meta-nav">&rarr;</span></a>`
-`</p>`
-`</div>`
-
+    <div class='latest-post'>
+    <p class='title'><a href='http://www.mysite.ca/blog/post'>Look ma, no hands!</a></p>
+    <p class='excerpt'>Today I rode a bicycle &hellip;<a href="http://www.mysite.ca/blog/post">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+    </div>
 
 == Installation ==
 
