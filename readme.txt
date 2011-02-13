@@ -5,7 +5,7 @@ Contributors: paulschreiber
 Tags: get_latest_post, post, posts, formatting, list, shortcode
 Requires at least: 3.0.4
 Tested up to: 3.0.5
-Stable tag: 0.1.1
+Stable tag: 0.2
 
 Adds a shortcode tag [get_latest_post] to display an excerpt from your latest blog post.
 
@@ -33,8 +33,8 @@ It generates markup like this, which you can style as desired:
 
 == Changelog ==
 
-= 0.1.1 =
-* Marked as compatible with 3.0.5.
+= 0.2 =
+* Call wp_reset_query() at the end.
 
 = 0.1 =
 * Initial release.
