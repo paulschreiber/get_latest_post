@@ -1,4 +1,4 @@
-=== Get Posts ===
+=== Get Latest Post ===
 Author URI: http://paulschreiber.com/
 Plugin URI: http://paulschreiber.com/blog/2011/02/04/how-to-display-the-latest-blog-post-on-a-wordpress-page/
 Contributors: paulschreiber
