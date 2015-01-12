@@ -26,9 +26,15 @@ It generates markup like this, which you can style as desired:
 
 1. Upload the plugin to the `/wp-content/plugins/` directory and unzip it.
 1. Activate the plugin through the 'Plugins' menu in WordPress.
-1. Place `[get_latest_post]` in your pages. 
+1. Place `[get_latest_post]` in your pages.
 
 == Changelog ==
+
+= 0.2.2 =
+* WordPress VIP coding standards; updated "tested up to" to 4.1
+
+= 0.2.1 =
+* Updated "tested up to" to 3.9.1
 
 = 0.2 =
 * Call wp_reset_query() at the end.
