@@ -4,8 +4,8 @@ Plugin URI: http://paulschreiber.com/blog/2011/02/04/how-to-display-the-latest-b
 Contributors: paulschreiber
 Tags: get_latest_post, post, posts, formatting, list, shortcode
 Requires at least: 3.0.4
-Stable tag: 0.2
 Tested up to: 4.1
+Stable tag: 0.2.2
 
 Adds a shortcode tag [get_latest_post] to display an excerpt from your latest blog post.
 
