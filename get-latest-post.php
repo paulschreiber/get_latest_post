@@ -14,17 +14,17 @@ Author URI: http://paulschreiber.com/
 */
 
 function get_latest_post_html() {
-	$content = "";
-	query_posts('showposts=1');
-	while (have_posts()){
+	$content = '';
+	query_posts( 'showposts=1' );
+	while ( have_posts() ) {
 		the_post();
 		$content .= "<p class='title'><a href='" . get_permalink() . "'>" . get_the_title() . "</a></p>\n" .
-				"<p class='excerpt'>" . get_the_excerpt() . "</p>";
+				"<p class='excerpt'>" . get_the_excerpt() . '</p>';
 	}
 	wp_reset_query();
-	
+
 	return "<div class='latest-post'>\n$content\n</div>";
 }
 
-add_shortcode('get_latest_post', 'get_latest_post_html');
+add_shortcode( 'get_latest_post', 'get_latest_post_html' );
 ?>
