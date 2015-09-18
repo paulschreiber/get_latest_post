@@ -4,8 +4,8 @@ Plugin URI: http://paulschreiber.com/blog/2011/02/04/how-to-display-the-latest-b
 Contributors: paulschreiber
 Tags: get_latest_post, post, posts, formatting, list, shortcode
 Requires at least: 3.0.4
-Tested up to: 4.1
-Stable tag: 0.2.2
+Tested up to: 4.3.1
+Stable tag: 0.3
 
 Adds a shortcode tag [get_latest_post] to display an excerpt from your latest blog post.
 
@@ -29,6 +29,11 @@ It generates markup like this, which you can style as desired:
 1. Place `[get_latest_post]` in your pages.
 
 == Changelog ==
+
+= 0.3 =
+* More WordPress VIP coding standards
+* refactored in to class
+* updated "tested up to" to 4.3.1
 
 = 0.2.2 =
 * WordPress VIP coding standards; updated "tested up to" to 4.1
